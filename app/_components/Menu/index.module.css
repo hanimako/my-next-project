@@ -1,0 +1,23 @@
+.items {
+  display: flex;
+  color: #fff;
+  gap: 40px;
+}
+
+.button {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    display: none;
+  }
+
+  .button {
+    display: block;
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
